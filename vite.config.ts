@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
 
 export default defineConfig({
   base: '/newPortfolio/',
@@ -7,11 +8,9 @@ export default defineConfig({
     outDir: './dist',
     rollupOptions: {
       input: {
-        main: 'index.html',
-        about: './components/about.html',
-        contacts: './components/contacts.html',
-        projects: './components/projects.html',
-        resume: './components/resume.html',
+        main: resolve(__dirname, 'index.html'),
+        about: resolve(__dirname, './components/about.html'),
+        projects: resolve(__dirname, './components/projects.html'),
       },
     },
   },
