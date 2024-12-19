@@ -1,3 +1,7 @@
 #projects_list {
   border: 2px solid red;
 }
+
+#projects_list div img {
+  width: 400px;
+}

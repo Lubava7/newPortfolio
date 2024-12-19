@@ -5,6 +5,7 @@ export type ProjectType = {
   description: string;
   stack: string[];
   createdAt: string;
+  img: string;
 };
 
 export type PagesType = {

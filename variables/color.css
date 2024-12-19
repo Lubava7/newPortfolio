@@ -2,26 +2,21 @@
   --white: #ffffff;
   --black: #000000;
 
-  --bg-main: #e3e3e3;
-  --bg-secondary: #f20000;
-  --bg-dark: #f20000;
-  --bg-light: #f20000;
+  --bg-main: #dedede;
+  --bg-dark: #1c1c1c;
+  --bg-header: #d87900;
 
-  --text-main: #000000;
-  --text-secondary: #f20000;
-  --text-dark: #f20000;
-  --text-light: #f20000;
-  --text-disabled: #f20000;
+  --color-accent: #ffad50;
 
-  --icon-main: #f20000;
-  --icon-secondary: #f20000;
-  --icon-dark: #f20000;
-  --icon-light: #f20000;
-  --icon-disabled: #f20000;
+  --border-shadow: #32325d40;
+  --border-shadow-dark: #0000004d;
 
-  --button-main: #f20000;
-  --button-secondary: #f20000;
-  --button-dark: #f20000;
-  --button-light: #f20000;
-  --button-disabled: #f20000;
+  --text-main: #1c1c1c;
+  --text-secondary: #7a7a7a;
+
+  --icon-main: #454545;
+
+  --button-bg: #dbdbdb;
+  --button-text: #1c1c1c;
+  --button-border: #1c1c1c;
 }
