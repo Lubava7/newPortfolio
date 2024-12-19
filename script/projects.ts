@@ -8,7 +8,7 @@ const projects: ProjectType[] = [
     description: 'Circea test task',
     stack: ['Html', 'Css', 'js'],
     createdAt: '2022',
-    img: '../public/pics/circea.jpg',
+    img: '/pics/circea.jpg',
   },
   {
     id: 10,
@@ -17,7 +17,7 @@ const projects: ProjectType[] = [
     description: 'Пример сайта-визитки для Сервиса аренды',
     stack: ['HTML', 'css'],
     createdAt: '2024',
-    img: '../public/pics/rental_service.jpg',
+    img: '/pics/rental_service.jpg',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const projects: ProjectType[] = [
     description: 'Page with Old newsPaper inspired look',
     stack: ['Html', 'css'],
     createdAt: '2024',
-    img: '../public/pics/zarya.jpg',
+    img: '/pics/zarya.jpg',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const projects: ProjectType[] = [
     description: 'Facts about solar system',
     stack: ['html', 'css', 'js'],
     createdAt: '2023',
-    img: '../public/pics/solar_syst.jpg',
+    img: '/pics/solar_syst.jpg',
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const projects: ProjectType[] = [
     description: 'landing page',
     stack: ['html', 'css'],
     createdAt: '2022',
-    img: '../public/pics/landing.jpg',
+    img: '/pics/landing.jpg',
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['html', 'css', 'js'],
     createdAt: '2022',
-    img: '../public/pics/yamaguchi_vc.jpg',
+    img: '/pics/yamaguchi_vc.jpg',
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '../public/pics/table.jpg',
+    img: '/pics/table.jpg',
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '../public/pics/venarus.jpg',
+    img: '/pics/venarus.jpg',
   },
   {
     id: 8,
@@ -80,7 +80,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '../public/pics/zakaz.jpg',
+    img: '/pics/zakaz.jpg',
   },
   {
     id: 9,
@@ -89,7 +89,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '../public/pics/my_landing.jpg',
+    img: '/pics/my_landing.jpg',
   },
   {
     id: 10,
@@ -98,7 +98,7 @@ const projects: ProjectType[] = [
     description: 'Page with Auth and statistics',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '../public/pics/vue_stats.jpg',
+    img: '/pics/vue_stats.jpg',
   },
   //   {
   //     id: 11,
@@ -136,7 +136,7 @@ export function getProjects() {
         if (container !== null || container !== undefined) {
           const div = document.createElement('div');
           // const svg = document.createElement('img');
-          // svg.setAttribute('src', '../public/svg/link.svg');
+          // svg.setAttribute('src', '/svg/link.svg');
           // svg.setAttribute('alt', `svg${project.id}`);
 
           const img = document.createElement('img');
