@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "types": ["vite/client"]
+  },
+  "include": ["script/*.ts", "script/*.d.ts", "script/*.tsx"],
+  "exclude": ["node_modules"]
+}

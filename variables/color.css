@@ -1,0 +1,27 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --bg-main: #e3e3e3;
+  --bg-secondary: #f20000;
+  --bg-dark: #f20000;
+  --bg-light: #f20000;
+
+  --text-main: #000000;
+  --text-secondary: #f20000;
+  --text-dark: #f20000;
+  --text-light: #f20000;
+  --text-disabled: #f20000;
+
+  --icon-main: #f20000;
+  --icon-secondary: #f20000;
+  --icon-dark: #f20000;
+  --icon-light: #f20000;
+  --icon-disabled: #f20000;
+
+  --button-main: #f20000;
+  --button-secondary: #f20000;
+  --button-dark: #f20000;
+  --button-light: #f20000;
+  --button-disabled: #f20000;
+}
