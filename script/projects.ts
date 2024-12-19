@@ -135,6 +135,9 @@ export function getProjects() {
       return projects.forEach((project) => {
         if (container !== null || container !== undefined) {
           const div = document.createElement('div');
+          // const svg = document.createElement('img');
+          // svg.setAttribute('src', '../img/svg/link.svg');
+          // svg.setAttribute('alt', `svg${project.id}`);
 
           const img = document.createElement('img');
           img.setAttribute('src', project.img);
@@ -149,8 +152,8 @@ export function getProjects() {
           const p = document.createElement('p');
           p.textContent = project.description;
 
-          div.appendChild(img);
           div.appendChild(link);
+          div.appendChild(img);
           div.appendChild(p);
 
           container?.appendChild(div);
