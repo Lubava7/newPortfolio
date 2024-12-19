@@ -7,14 +7,6 @@ const pages: PagesType[] = [
     path: 'about.html',
   },
   {
-    name: 'contacts',
-    path: 'contacts.html',
-  },
-  {
-    name: 'navbar',
-    path: 'navbar.html',
-  },
-  {
     name: 'projects',
     path: 'projects.html',
   },
