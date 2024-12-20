@@ -7,8 +7,3 @@ export type ProjectType = {
   createdAt: string;
   img: string;
 };
-
-export type PagesType = {
-  name: string;
-  path: string;
-};

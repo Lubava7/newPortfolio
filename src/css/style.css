@@ -1,6 +1,0 @@
-@import '/src/variables/color.css';
-
-body {
-  margin: 8px;
-  background-color: var(--bg-main);
-}

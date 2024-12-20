@@ -1,5 +1,57 @@
 @import '/src/variables/color.css';
 
+body {
+  margin: 8px;
+  background-color: var(--bg-main);
+}
+
+/* projects */
+
+#projects_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#projects_list div {
+  background-color: var(--bg-light);
+  box-shadow: var(--border-shadow) 0px 30px 60px -12px inset,
+    var(--border-shadow-dark) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+}
+
+#projects_list div a {
+  text-decoration: none;
+  color: var(--text-main);
+  font-size: 1.5rem;
+}
+
+#projects_list div img {
+  border-radius: 10px;
+  width: 310px;
+  transition: 0.3s;
+  margin: 4px 0;
+  border: 2px solid var(--white);
+}
+
+#projects_list div:hover img {
+  width: 350px;
+}
+
+#projects_list div p {
+  border-radius: 10px;
+  font-size: 1rem;
+  opacity: 70%;
+}
+
+/* about */
+
 .about_body {
   border: 1px solid rgb(254, 0, 152);
 }
@@ -31,6 +83,7 @@
 }
 
 .social_links a img {
+  width: 35px;
   transition: 0.3s;
 }
 
