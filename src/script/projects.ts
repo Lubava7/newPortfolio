@@ -8,7 +8,7 @@ const projects: ProjectType[] = [
     description: 'Circea test task',
     stack: ['Html', 'Css', 'js'],
     createdAt: '2022',
-    img: '/src/pics/circea.jpg',
+    img: '/src/assets/pics/circea.jpg',
   },
   {
     id: 10,
@@ -17,7 +17,7 @@ const projects: ProjectType[] = [
     description: 'Пример сайта-визитки для Сервиса аренды',
     stack: ['HTML', 'css'],
     createdAt: '2024',
-    img: '/src/pics/rental_service.jpg',
+    img: '/src/assets/pics/rental_service.jpg',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const projects: ProjectType[] = [
     description: 'Page with Old newsPaper inspired look',
     stack: ['Html', 'css'],
     createdAt: '2024',
-    img: '/src/pics/zarya.jpg',
+    img: '/src/assets/pics/zarya.jpg',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const projects: ProjectType[] = [
     description: 'Facts about solar system',
     stack: ['html', 'css', 'js'],
     createdAt: '2023',
-    img: '/src/pics/solar_syst.jpg',
+    img: '/src/assets/pics/solar_syst.jpg',
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const projects: ProjectType[] = [
     description: 'landing page',
     stack: ['html', 'css'],
     createdAt: '2022',
-    img: '/src/pics/landing.jpg',
+    img: '/src/assets/pics/landing.jpg',
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['html', 'css', 'js'],
     createdAt: '2022',
-    img: '/src/pics/yamaguchi_vc.jpg',
+    img: '/src/assets/pics/yamaguchi_vc.jpg',
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '/src/pics/table.jpg',
+    img: '/src/assets/pics/table.jpg',
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '/src/pics/venarus.jpg',
+    img: '/src/assets/pics/venarus.jpg',
   },
   {
     id: 8,
@@ -80,7 +80,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '/src/pics/zakaz.jpg',
+    img: '/src/assets/pics/zakaz.jpg',
   },
   {
     id: 9,
@@ -89,7 +89,7 @@ const projects: ProjectType[] = [
     description: 'string',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '/src/pics/my_landing.jpg',
+    img: '/src/assets/pics/my_landing.jpg',
   },
   {
     id: 10,
@@ -98,12 +98,12 @@ const projects: ProjectType[] = [
     description: 'Page with Auth and statistics',
     stack: ['string', 'string2'],
     createdAt: '2022',
-    img: '/src/pics/vue_stats.jpg',
+    img: '/src/assets/pics/vue_stats.jpg',
   },
 ];
 
 export function getProjects() {
-  fetch('../components/projects.html')
+  fetch('/src/components/projects.html')
     .then((response) => response.text())
     .then(() => {
       const container = document.getElementById('projects_list');

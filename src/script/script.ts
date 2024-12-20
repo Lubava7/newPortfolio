@@ -17,7 +17,7 @@ const pages: PagesType[] = [
 ];
 
 pages.forEach(({ name, path }) => {
-  fetch(`../components/${path}`)
+  fetch(`/src/components/${path}`)
     .then((response) => response.text())
     .then((data) => {
       const section = document.getElementById(`${name}_section`);

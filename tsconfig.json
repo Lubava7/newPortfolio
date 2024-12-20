@@ -1,15 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "esnext",
+    "module": "esnext",
     "moduleResolution": "node",
-    "lib": ["ESNext", "DOM"],
     "strict": true,
     "esModuleInterop": true,
-    "outDir": "./dist",
     "skipLibCheck": true,
-    "noImplicitReturns": true,
-    "noEmit": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
     "types": ["vite/client"]
