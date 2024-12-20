@@ -13,7 +13,7 @@ body {
   flex-wrap: wrap;
 }
 
-#projects_list div {
+#projects_list div a {
   background-color: var(--bg-light);
   box-shadow: var(--border-shadow) 0px 30px 60px -12px inset,
     var(--border-shadow-dark) 0px 18px 36px -18px inset;
@@ -29,6 +29,13 @@ body {
 #projects_list div a {
   text-decoration: none;
   color: var(--text-main);
+  width: 315px;
+  transition: 0.3s;
+}
+
+#projects_list div a b {
+  text-decoration: none;
+  color: var(--text-main);
   font-size: 1.5rem;
 }
 
@@ -40,11 +47,15 @@ body {
   border: 2px solid var(--white);
 }
 
+#projects_list div:hover a {
+  width: 350px;
+}
+
 #projects_list div:hover img {
   width: 350px;
 }
 
-#projects_list div p {
+#projects_list div a p:nth-child(2) {
   border-radius: 10px;
   font-size: 1rem;
   opacity: 70%;
