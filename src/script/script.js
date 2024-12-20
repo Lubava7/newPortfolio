@@ -1,6 +1,4 @@
-import { ProjectType } from './types';
-
-const projects: ProjectType[] = [
+const projects = [
   {
     id: 1,
     name: 'Circea',
@@ -101,29 +99,24 @@ const projects: ProjectType[] = [
     img: 'public/pics/vue_stats.jpg',
   },
 ];
-
 const container = document.getElementById('projects_list');
 projects.forEach((project) => {
   if (container !== null || container !== undefined) {
     const div = document.createElement('div');
-
     const img = document.createElement('img');
     img.setAttribute('src', project.img);
     img.setAttribute('alt', `img${project.id}`);
-
     const link = document.createElement('a');
     link.setAttribute('target', '_blank');
     link.setAttribute('href', project.link);
     link.setAttribute('title', project.name);
     link.textContent = project.name;
-
     const p = document.createElement('p');
     p.textContent = project.description;
-
     div.appendChild(link);
     div.appendChild(img);
     div.appendChild(p);
-
     container?.appendChild(div);
   }
 });
+export {};
