@@ -1,4 +1,4 @@
-@import '../variables/color.css';
+@import '/src/variables/color.css';
 
 .about_body {
   border: 1px solid rgb(254, 0, 152);

@@ -1,16 +1,19 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "node",
+    "lib": ["ESNext", "DOM"],
     "strict": true,
     "esModuleInterop": true,
     "outDir": "./dist",
     "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "noEmit": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
     "types": ["vite/client"]
   },
-  "include": ["script/*.ts", "script/*.d.ts", "script/*.tsx"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
